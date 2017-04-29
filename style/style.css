@@ -1,0 +1,248 @@
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 1200px;
+    width: 1000px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.top {
+    overflow: hidden;
+    width: 100%;
+}
+.top .logo
+{
+width: 20%;
+max-width: 100%;
+float: left;
+}
+.top .logo img {
+    max-width: 100%;
+    display: block;
+}
+.top .menu {
+    width: 80%;
+    float: left;
+}
+.menu ul {
+margin: 0;
+padding: 0;
+text-align: right;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    }
+    .menu ul li a {
+    color: #181819;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.menu ul li a:hover {
+    background: #5dab5d;
+    color: #eeeeee;
+}
+
+.div{
+	display:block;
+}
+
+.banner1 {
+height: 15%;
+width: 100%;
+background: green;
+text-align: center;
+background-image: url(../images/icon1.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 100% 70%;
+background-attachment: fixed;
+padding: 50px 0;
+}
+.banner1 h1 {
+    text-shadow: 4px 4px 2px #000;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.banner1 h3 p a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    border-radius: 60px;
+    display: inline-block;
+    font-size: 20px;
+    background: #46b546;
+    width: 226px;
+    text-transform: uppercase;
+}
+
+.banner2 {
+    overflow: hidden;
+    padding: 74px 100px;
+    background: white;
+    height: 30%;
+}
+.banner2 h2 {
+    width: 100%;
+    height: 10%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner2 p {
+    width: 100%;
+    height: 10%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.banner2 .logo1 {
+    width: 33.33%;
+    height: 30%;
+    float: left;
+    text-align: center;
+}
+.banner2 .logo2 {
+    width: 33.33%;
+    float: left;
+    height: 30%;
+    text-align: center;
+}
+.banner2 .logo3 {
+    width: 33.33%;
+    float: left;
+    height: 30%;
+    text-align: center;
+}
+
+.banner3 .left {
+    width: 30%;
+    float: left;
+}
+
+.banner3 {
+    overflow: hidden;
+    background: lightgray;
+}
+.banner3 .right {
+    width: 70%;
+    background-image: url(../images/image7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 216% 18%;
+    background-attachment: fixed;
+    padding: 100px 0;
+    float: left;
+    font-size: 25px;
+    color: white;
+}
+.relax	{
+    width: 38%;
+    height: 75px;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #499E81;
+    padding-right: 15px;
+}
+.more
+{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 2px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    border-radius: 60px;
+    display: inline-block;
+    font-size: 21px;
+    text-align: center;
+    background: #5dab5d;
+    width: 226px;
+    text-transform: uppercase;
+}
+.client1 p {
+    width: 100%;
+    height: 10%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.client1 h2 {
+    width: 100%;
+    height: 10%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner4 {
+    background: #67b569;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+.banner5 {
+    color: white;
+    overflow: hidden;
+    background: black;
+}
+.banner5 .left {
+    width: 50%;
+    float: left;
+}
+.banner5 .right {
+    width: 50%;
+    float: left;
+}
+.copyright {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.bottom {
+    height: 5%;
+    color: black;
+}
+.social {
+    float: left;
+    width: 50%;
+}
+.social ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social ul li {
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a {
+    color: #99bc72;
+    font-size: 16px;
+    display: block;
+    background: #0c0c0b;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
